@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>btextd</string>
+	<string>bluu</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.neilcowburn.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -29,7 +29,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 Vividnoise. All rights reserved.</string>
+	<string>Copyright © 2013 Neil Cowburn. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

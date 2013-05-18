@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		283EDB55172C04480042BA37 /* NCPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 283EDB54172C04410042BA37 /* NCPreferences.m */; };
-		283EDB59172C05E70042BA37 /* btextd.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EDB58172C05E70042BA37 /* btextd.png */; };
-		283EDB5D172C07BA0042BA37 /* btextd.icns in Resources */ = {isa = PBXBuildFile; fileRef = 283EDB5C172C07BA0042BA37 /* btextd.icns */; };
+		283EDB5D172C07BA0042BA37 /* bluu.icns in Resources */ = {isa = PBXBuildFile; fileRef = 283EDB5C172C07BA0042BA37 /* bluu.icns */; };
 		28B98A45172605E8005BAC6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B98A44172605E8005BAC6B /* CoreGraphics.framework */; };
 		28E1B2E3170388BB004A410E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E1B2E2170388BB004A410E /* Cocoa.framework */; };
 		28E1B2ED170388BB004A410E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B2EB170388BB004A410E /* InfoPlist.strings */; };
@@ -24,8 +23,7 @@
 /* Begin PBXFileReference section */
 		283EDB53172C04410042BA37 /* NCPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCPreferences.h; sourceTree = "<group>"; };
 		283EDB54172C04410042BA37 /* NCPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCPreferences.m; sourceTree = "<group>"; };
-		283EDB58172C05E70042BA37 /* btextd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btextd.png; path = ../btextd.png; sourceTree = "<group>"; };
-		283EDB5C172C07BA0042BA37 /* btextd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = btextd.icns; path = ../btextd.icns; sourceTree = "<group>"; };
+		283EDB5C172C07BA0042BA37 /* bluu.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = bluu.icns; path = ../bluu.icns; sourceTree = "<group>"; };
 		28B98A44172605E8005BAC6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28E1B2DF170388BB004A410E /* bluu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1B2E2170388BB004A410E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -111,8 +109,7 @@
 		28E1B2E9170388BB004A410E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				283EDB5C172C07BA0042BA37 /* btextd.icns */,
-				283EDB58172C05E70042BA37 /* btextd.png */,
+				283EDB5C172C07BA0042BA37 /* bluu.icns */,
 				28E1B2EA170388BB004A410E /* bluu-Info.plist */,
 				28E1B2EB170388BB004A410E /* InfoPlist.strings */,
 				28E1B2EE170388BB004A410E /* main.m */,
@@ -179,8 +176,7 @@
 				28E1B2F3170388BC004A410E /* Credits.rtf in Resources */,
 				28E1B2F9170388BC004A410E /* MainMenu.xib in Resources */,
 				28E1B30217038CEB004A410E /* com.neilcowburn.bluud.plist in Resources */,
-				283EDB59172C05E70042BA37 /* btextd.png in Resources */,
-				283EDB5D172C07BA0042BA37 /* btextd.icns in Resources */,
+				283EDB5D172C07BA0042BA37 /* bluu.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
