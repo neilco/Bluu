@@ -18,7 +18,7 @@
 		28E1B2F6170388BC004A410E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B2F5170388BC004A410E /* AppDelegate.m */; };
 		28E1B2F9170388BC004A410E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B2F7170388BC004A410E /* MainMenu.xib */; };
 		28E1B300170388F9004A410E /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E1B2FF170388F9004A410E /* IOBluetooth.framework */; };
-		28E1B30217038CEB004A410E /* com.vividnoise.btextd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */; };
+		28E1B30217038CEB004A410E /* com.neilcowburn.bluud.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B30117038CEB004A410E /* com.neilcowburn.bluud.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,20 +27,20 @@
 		283EDB58172C05E70042BA37 /* btextd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btextd.png; path = ../btextd.png; sourceTree = "<group>"; };
 		283EDB5C172C07BA0042BA37 /* btextd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = btextd.icns; path = ../btextd.icns; sourceTree = "<group>"; };
 		28B98A44172605E8005BAC6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28E1B2DF170388BB004A410E /* btextd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btextd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E1B2DF170388BB004A410E /* bluu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1B2E2170388BB004A410E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		28E1B2E5170388BB004A410E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		28E1B2E7170388BB004A410E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		28E1B2EA170388BB004A410E /* BluetoothExternalDaemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothExternalDaemon-Info.plist"; sourceTree = "<group>"; };
+		28E1B2EA170388BB004A410E /* bluu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bluu-Info.plist"; sourceTree = "<group>"; };
 		28E1B2EC170388BB004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28E1B2EE170388BB004A410E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28E1B2F0170388BC004A410E /* BluetoothExternalDaemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothExternalDaemon-Prefix.pch"; sourceTree = "<group>"; };
+		28E1B2F0170388BC004A410E /* bluu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluu-Prefix.pch"; sourceTree = "<group>"; };
 		28E1B2F2170388BC004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		28E1B2F4170388BC004A410E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28E1B2F5170388BC004A410E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28E1B2F8170388BC004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		28E1B2FF170388F9004A410E /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
-		28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.vividnoise.btextd.plist; sourceTree = "<group>"; };
+		28E1B30117038CEB004A410E /* com.neilcowburn.bluud.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.neilcowburn.bluud.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		28E1B2D6170388BA004A410E = {
 			isa = PBXGroup;
 			children = (
-				28E1B2E8170388BB004A410E /* BluetoothExternalDaemon */,
+				28E1B2E8170388BB004A410E /* bluu */,
 				28E1B2E1170388BB004A410E /* Frameworks */,
 				28E1B2E0170388BB004A410E /* Products */,
 			);
@@ -69,7 +69,7 @@
 		28E1B2E0170388BB004A410E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28E1B2DF170388BB004A410E /* btextd.app */,
+				28E1B2DF170388BB004A410E /* bluu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		28E1B2E8170388BB004A410E /* BluetoothExternalDaemon */ = {
+		28E1B2E8170388BB004A410E /* bluu */ = {
 			isa = PBXGroup;
 			children = (
 				28E1B2F4170388BC004A410E /* AppDelegate.h */,
@@ -104,7 +104,8 @@
 				283EDB54172C04410042BA37 /* NCPreferences.m */,
 				28E1B2E9170388BB004A410E /* Supporting Files */,
 			);
-			path = BluetoothExternalDaemon;
+			name = bluu;
+			path = Bluu;
 			sourceTree = "<group>";
 		};
 		28E1B2E9170388BB004A410E /* Supporting Files */ = {
@@ -112,12 +113,12 @@
 			children = (
 				283EDB5C172C07BA0042BA37 /* btextd.icns */,
 				283EDB58172C05E70042BA37 /* btextd.png */,
-				28E1B2EA170388BB004A410E /* BluetoothExternalDaemon-Info.plist */,
+				28E1B2EA170388BB004A410E /* bluu-Info.plist */,
 				28E1B2EB170388BB004A410E /* InfoPlist.strings */,
 				28E1B2EE170388BB004A410E /* main.m */,
-				28E1B2F0170388BC004A410E /* BluetoothExternalDaemon-Prefix.pch */,
+				28E1B2F0170388BC004A410E /* bluu-Prefix.pch */,
 				28E1B2F1170388BC004A410E /* Credits.rtf */,
-				28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */,
+				28E1B30117038CEB004A410E /* com.neilcowburn.bluud.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28E1B2DE170388BB004A410E /* BluetoothExternalDaemon */ = {
+		28E1B2DE170388BB004A410E /* bluu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28E1B2FC170388BC004A410E /* Build configuration list for PBXNativeTarget "BluetoothExternalDaemon" */;
+			buildConfigurationList = 28E1B2FC170388BC004A410E /* Build configuration list for PBXNativeTarget "bluu" */;
 			buildPhases = (
 				28E1B2DB170388BB004A410E /* Sources */,
 				28E1B2DC170388BB004A410E /* Frameworks */,
@@ -137,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = BluetoothExternalDaemon;
-			productName = BluetoothExternalDaemon;
-			productReference = 28E1B2DF170388BB004A410E /* btextd.app */;
+			name = bluu;
+			productName = Bluu;
+			productReference = 28E1B2DF170388BB004A410E /* bluu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +153,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Vividnoise;
 			};
-			buildConfigurationList = 28E1B2DA170388BA004A410E /* Build configuration list for PBXProject "BluetoothExternalDaemon" */;
+			buildConfigurationList = 28E1B2DA170388BA004A410E /* Build configuration list for PBXProject "bluu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28E1B2DE170388BB004A410E /* BluetoothExternalDaemon */,
+				28E1B2DE170388BB004A410E /* bluu */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +178,7 @@
 				28E1B2ED170388BB004A410E /* InfoPlist.strings in Resources */,
 				28E1B2F3170388BC004A410E /* Credits.rtf in Resources */,
 				28E1B2F9170388BC004A410E /* MainMenu.xib in Resources */,
-				28E1B30217038CEB004A410E /* com.vividnoise.btextd.plist in Resources */,
+				28E1B30217038CEB004A410E /* com.neilcowburn.bluud.plist in Resources */,
 				283EDB59172C05E70042BA37 /* btextd.png in Resources */,
 				283EDB5D172C07BA0042BA37 /* btextd.icns in Resources */,
 			);
@@ -290,9 +291,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BluetoothExternalDaemon/BluetoothExternalDaemon-Prefix.pch";
-				INFOPLIST_FILE = "BluetoothExternalDaemon/BluetoothExternalDaemon-Info.plist";
-				PRODUCT_NAME = btextd;
+				GCC_PREFIX_HEADER = "Bluu/bluu-Prefix.pch";
+				INFOPLIST_FILE = "Bluu/bluu-Info.plist";
+				PRODUCT_NAME = bluu;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -302,9 +303,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BluetoothExternalDaemon/BluetoothExternalDaemon-Prefix.pch";
-				INFOPLIST_FILE = "BluetoothExternalDaemon/BluetoothExternalDaemon-Info.plist";
-				PRODUCT_NAME = btextd;
+				GCC_PREFIX_HEADER = "Bluu/bluu-Prefix.pch";
+				INFOPLIST_FILE = "Bluu/bluu-Info.plist";
+				PRODUCT_NAME = bluu;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28E1B2DA170388BA004A410E /* Build configuration list for PBXProject "BluetoothExternalDaemon" */ = {
+		28E1B2DA170388BA004A410E /* Build configuration list for PBXProject "bluu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28E1B2FA170388BC004A410E /* Debug */,
@@ -321,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28E1B2FC170388BC004A410E /* Build configuration list for PBXNativeTarget "BluetoothExternalDaemon" */ = {
+		28E1B2FC170388BC004A410E /* Build configuration list for PBXNativeTarget "bluu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28E1B2FD170388BC004A410E /* Debug */,
