@@ -45,7 +45,7 @@
 {
     [self checkAppID];
     
-    BOOL returnValue = NO;
+    BOOL returnValue = YES;
     
     CFPropertyListRef value = CFPreferencesCopyAppValue((__bridge CFStringRef)key, (__bridge CFStringRef)_appID);
     if (value && CFGetTypeID(value) == CFBooleanGetTypeID()) {

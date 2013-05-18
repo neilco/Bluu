@@ -146,9 +146,9 @@
 		28E1B2D7170388BA004A410E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = VN;
+				CLASSPREFIX = NC;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = Vividnoise;
+				ORGANIZATIONNAME = "Neil Cowburn";
 			};
 			buildConfigurationList = 28E1B2DA170388BA004A410E /* Build configuration list for PBXProject "bluu" */;
 			compatibilityVersion = "Xcode 3.2";

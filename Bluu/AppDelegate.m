@@ -25,7 +25,7 @@ NSString *const kBTExtDAppID = @"com.neilcowburn.btextd";
     center.delegate = self;
     
     NSUserNotification *note = [NSUserNotification new];
-    note.title = @"Bluetooth Watcher Daemon";
+    note.title = @"Bluu";
     note.subtitle = [NSString stringWithFormat:@"Bluetooth has been turned %@", bluetoothIsOn ? @"on" : @"off"];
     
     [center deliverNotification:note];
