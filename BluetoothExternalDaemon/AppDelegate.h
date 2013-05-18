@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface VNAppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 
 @end
+
+void IOBluetoothPreferenceSetControllerPowerState(int powerstate);
+int IOBluetoothPreferenceGetControllerPowerState();

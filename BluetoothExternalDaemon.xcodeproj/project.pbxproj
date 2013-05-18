@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283EDB55172C04480042BA37 /* NCPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 283EDB54172C04410042BA37 /* NCPreferences.m */; };
+		283EDB59172C05E70042BA37 /* btextd.png in Resources */ = {isa = PBXBuildFile; fileRef = 283EDB58172C05E70042BA37 /* btextd.png */; };
+		283EDB5D172C07BA0042BA37 /* btextd.icns in Resources */ = {isa = PBXBuildFile; fileRef = 283EDB5C172C07BA0042BA37 /* btextd.icns */; };
+		28B98A45172605E8005BAC6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B98A44172605E8005BAC6B /* CoreGraphics.framework */; };
 		28E1B2E3170388BB004A410E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E1B2E2170388BB004A410E /* Cocoa.framework */; };
 		28E1B2ED170388BB004A410E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B2EB170388BB004A410E /* InfoPlist.strings */; };
 		28E1B2EF170388BB004A410E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B2EE170388BB004A410E /* main.m */; };
 		28E1B2F3170388BC004A410E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B2F1170388BC004A410E /* Credits.rtf */; };
-		28E1B2F6170388BC004A410E /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B2F5170388BC004A410E /* VNAppDelegate.m */; };
+		28E1B2F6170388BC004A410E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B2F5170388BC004A410E /* AppDelegate.m */; };
 		28E1B2F9170388BC004A410E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B2F7170388BC004A410E /* MainMenu.xib */; };
+		28E1B300170388F9004A410E /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E1B2FF170388F9004A410E /* IOBluetooth.framework */; };
+		28E1B30217038CEB004A410E /* com.vividnoise.btextd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28E1B2DF170388BB004A410E /* BluetoothExternalDaemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothExternalDaemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283EDB53172C04410042BA37 /* NCPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCPreferences.h; sourceTree = "<group>"; };
+		283EDB54172C04410042BA37 /* NCPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCPreferences.m; sourceTree = "<group>"; };
+		283EDB58172C05E70042BA37 /* btextd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btextd.png; path = ../btextd.png; sourceTree = "<group>"; };
+		283EDB5C172C07BA0042BA37 /* btextd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = btextd.icns; path = ../btextd.icns; sourceTree = "<group>"; };
+		28B98A44172605E8005BAC6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28E1B2DF170388BB004A410E /* btextd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btextd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1B2E2170388BB004A410E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		28E1B2E5170388BB004A410E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		28E1B2E6170388BB004A410E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		28E1B2E7170388BB004A410E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28E1B2EA170388BB004A410E /* BluetoothExternalDaemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothExternalDaemon-Info.plist"; sourceTree = "<group>"; };
 		28E1B2EC170388BB004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28E1B2EE170388BB004A410E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E1B2F0170388BC004A410E /* BluetoothExternalDaemon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothExternalDaemon-Prefix.pch"; sourceTree = "<group>"; };
 		28E1B2F2170388BC004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		28E1B2F4170388BC004A410E /* VNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNAppDelegate.h; sourceTree = "<group>"; };
-		28E1B2F5170388BC004A410E /* VNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNAppDelegate.m; sourceTree = "<group>"; };
+		28E1B2F4170388BC004A410E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28E1B2F5170388BC004A410E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28E1B2F8170388BC004A410E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28E1B2FF170388F9004A410E /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.vividnoise.btextd.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B98A45172605E8005BAC6B /* CoreGraphics.framework in Frameworks */,
+				28E1B300170388F9004A410E /* IOBluetooth.framework in Frameworks */,
 				28E1B2E3170388BB004A410E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +69,7 @@
 		28E1B2E0170388BB004A410E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28E1B2DF170388BB004A410E /* BluetoothExternalDaemon.app */,
+				28E1B2DF170388BB004A410E /* btextd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +77,8 @@
 		28E1B2E1170388BB004A410E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28B98A44172605E8005BAC6B /* CoreGraphics.framework */,
+				28E1B2FF170388F9004A410E /* IOBluetooth.framework */,
 				28E1B2E2170388BB004A410E /* Cocoa.framework */,
 				28E1B2E4170388BB004A410E /* Other Frameworks */,
 			);
@@ -73,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				28E1B2E5170388BB004A410E /* AppKit.framework */,
-				28E1B2E6170388BB004A410E /* CoreData.framework */,
 				28E1B2E7170388BB004A410E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -82,9 +97,11 @@
 		28E1B2E8170388BB004A410E /* BluetoothExternalDaemon */ = {
 			isa = PBXGroup;
 			children = (
-				28E1B2F4170388BC004A410E /* VNAppDelegate.h */,
-				28E1B2F5170388BC004A410E /* VNAppDelegate.m */,
+				28E1B2F4170388BC004A410E /* AppDelegate.h */,
+				28E1B2F5170388BC004A410E /* AppDelegate.m */,
 				28E1B2F7170388BC004A410E /* MainMenu.xib */,
+				283EDB53172C04410042BA37 /* NCPreferences.h */,
+				283EDB54172C04410042BA37 /* NCPreferences.m */,
 				28E1B2E9170388BB004A410E /* Supporting Files */,
 			);
 			path = BluetoothExternalDaemon;
@@ -93,11 +110,14 @@
 		28E1B2E9170388BB004A410E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				283EDB5C172C07BA0042BA37 /* btextd.icns */,
+				283EDB58172C05E70042BA37 /* btextd.png */,
 				28E1B2EA170388BB004A410E /* BluetoothExternalDaemon-Info.plist */,
 				28E1B2EB170388BB004A410E /* InfoPlist.strings */,
 				28E1B2EE170388BB004A410E /* main.m */,
 				28E1B2F0170388BC004A410E /* BluetoothExternalDaemon-Prefix.pch */,
 				28E1B2F1170388BC004A410E /* Credits.rtf */,
+				28E1B30117038CEB004A410E /* com.vividnoise.btextd.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,7 +139,7 @@
 			);
 			name = BluetoothExternalDaemon;
 			productName = BluetoothExternalDaemon;
-			productReference = 28E1B2DF170388BB004A410E /* BluetoothExternalDaemon.app */;
+			productReference = 28E1B2DF170388BB004A410E /* btextd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,6 +177,9 @@
 				28E1B2ED170388BB004A410E /* InfoPlist.strings in Resources */,
 				28E1B2F3170388BC004A410E /* Credits.rtf in Resources */,
 				28E1B2F9170388BC004A410E /* MainMenu.xib in Resources */,
+				28E1B30217038CEB004A410E /* com.vividnoise.btextd.plist in Resources */,
+				283EDB59172C05E70042BA37 /* btextd.png in Resources */,
+				283EDB5D172C07BA0042BA37 /* btextd.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E1B2EF170388BB004A410E /* main.m in Sources */,
-				28E1B2F6170388BC004A410E /* VNAppDelegate.m in Sources */,
+				28E1B2F6170388BC004A410E /* AppDelegate.m in Sources */,
+				283EDB55172C04480042BA37 /* NCPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothExternalDaemon/BluetoothExternalDaemon-Prefix.pch";
 				INFOPLIST_FILE = "BluetoothExternalDaemon/BluetoothExternalDaemon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = btextd;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,7 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothExternalDaemon/BluetoothExternalDaemon-Prefix.pch";
 				INFOPLIST_FILE = "BluetoothExternalDaemon/BluetoothExternalDaemon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = btextd;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,6 +328,7 @@
 				28E1B2FE170388BC004A410E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
